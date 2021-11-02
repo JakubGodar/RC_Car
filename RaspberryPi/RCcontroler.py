@@ -3,6 +3,6 @@ class rc_controller:
         print("inicialitise RcCar")
         
     def set_values(self,speed,angle):
-        print("nastavujem hodnoty")
+        print("setting values")
         print(speed)
         print(angle)
