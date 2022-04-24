@@ -42,10 +42,10 @@ while(True):
         cislo = 0
 
     if keyboard.is_pressed("a") and not keyboard.is_pressed("d"):
-        cislo2 = 255
+        cislo2 = -255
 
     if keyboard.is_pressed("d") and not keyboard.is_pressed("a"):
-        cislo2 = -255
+        cislo2 = 255
     
     if keyboard.is_pressed("a") and keyboard.is_pressed("d"):
         cislo2 = 0
