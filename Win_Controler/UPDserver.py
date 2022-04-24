@@ -1,5 +1,6 @@
 import socket
 import keyboard
+import time
 #pocitac
 #msgFromServer       = "Hello UDP Client" správa ktorá sa pošle naspat ako odpoved
 #bytesToSend         = str.encode(msgFromServer) správu zakoduje
@@ -56,3 +57,4 @@ while(True):
 
     # Sending a reply to client
     Jakubko.sendto(str.encode(packet), address)
+    time.sleep(0.01)
